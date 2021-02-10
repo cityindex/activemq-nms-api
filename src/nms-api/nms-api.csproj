@@ -49,17 +49,17 @@ with the License.  You may obtain a copy of the License at
     </PropertyGroup>
 
     <!-- SourceLink Start -->
-    <PropertyGroup>
-        <!-- Embed source files that are not tracked by the source control manager in the PDB -->
-        <EmbedUntrackedSources>true</EmbedUntrackedSources>
-        <!-- Build symbol package (.snupkg) to distribute the PDB containing Source Link -->
-        <IncludeSymbols>true</IncludeSymbols>
-        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    </PropertyGroup>
-    <ItemGroup>
-        <!-- Add PackageReference specific for your source control provider (see below) -->
-        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
-    </ItemGroup>
+<!--    <PropertyGroup>-->
+<!--        &lt;!&ndash; Embed source files that are not tracked by the source control manager in the PDB &ndash;&gt;-->
+<!--        <EmbedUntrackedSources>true</EmbedUntrackedSources>-->
+<!--        &lt;!&ndash; Build symbol package (.snupkg) to distribute the PDB containing Source Link &ndash;&gt;-->
+<!--        <IncludeSymbols>true</IncludeSymbols>-->
+<!--        <SymbolPackageFormat>snupkg</SymbolPackageFormat>-->
+<!--    </PropertyGroup>-->
+<!--    <ItemGroup>-->
+<!--        &lt;!&ndash; Add PackageReference specific for your source control provider (see below) &ndash;&gt;-->
+<!--        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />-->
+<!--    </ItemGroup>-->
     <!-- SourceLink End -->
 
     <ItemGroup>
